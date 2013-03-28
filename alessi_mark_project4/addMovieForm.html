@@ -1,0 +1,135 @@
+<!-- 
+    addMovieForm.html
+    Mark Alessi
+    Project 3
+    VFW 1303  
+ --> 
+
+
+<!DOCTYPE html>
+<html>
+	<!--Header -->
+	<head>
+    	<title>Mark Alessi :: Project 1 :: VFW 1303</title>
+
+    	<!-- External CSS Style Sheet -->
+    	<link rel="stylesheet" href="CSS/movieInventory.css" type="text/css" />
+    
+    	<meta charset="utf-8" />
+    </head>
+
+    <body>
+        <div id ="main"> 
+     
+	<!-- Header Tag(s) -->
+    	<header>
+        	<h1>Let's Build A Movie Collection!</h1>
+        </header>
+    
+            <form name="form1" id="form1">
+            
+            <h2><b>Add A Movie</b></span></h2> 
+         
+            <!-- OPTION TO email form later <form name="form" method="post" action="mailto:markalessi@fullsail.edu?SUBJECT=Contact Form" enctype="text/plain" onSubmit="javascript:return checkForm()";> --> 
+            
+            <!--Submit/Clear/Close Buttons -->
+
+            <p>
+            <input type="submit" value="Submit" style="font-size:10pt" />&nbsp;
+            <input type="reset" id="clear" value="Clear Form" style="font-size:10pt" />&nbsp;
+            <input type="button" value="Close Window" onClick="self.close()">
+            </p>  
+            <span class="copy"> 
+            
+            <!--End of Submit/Clear/Close Buttons -->
+
+            
+            <!-- Movie Title Input -->
+            
+            <p><b>Movie Title:</b>
+            </span> 
+            
+            <input size="30" name="movietitle" id="field1" style="font-size:10pt" /> 
+
+            <!-- Movie Genere checkboxes -->
+
+            <span class="copy">
+            <p><b>Movie Genere(s):</b>
+            <br>
+             
+            <form action="" name="checkbox">
+            <input type="checkbox" name="genre"  value="Action" id="field2">Action
+            <input type="checkbox" name="genre" value="Adventure">Adventure
+            <input type="checkbox" name="genre" value="Animated">Animated
+            <br>
+            <input type="checkbox" name="genre" value="Comedy">Comedy
+            <input type="checkbox" name="genre" value="Documentary">Documentary
+            <input type="checkbox" name="genre" value="Drama">Drama
+            <br>
+            <input type="checkbox" name="genre" value="Family">Family
+            <input type="checkbox" name="genre" value="Foreign">Foreign
+            <input type="checkbox" name="genre" value="History">History
+            <br>
+            <input type="checkbox" name="genre" value="Horror">Horror
+            <input type="checkbox" name="genre" value="Musical">Musical
+            <input type="checkbox" name="genre" value="Mystery">Mystery
+            <br>
+            <input type="checkbox" name="genre" value="Romance">Romance
+            <input type="checkbox" name="genre" value="Sci-Fi">Sci-Fi
+            <input type="checkbox" name="genre" value="Sports">Sports
+            <br>
+            <input type="checkbox" name="genre" value="Televison Series">Televison Series
+            <input type="checkbox" name="genre" value="War">War
+            <input type="checkbox" name="genre" value="Western">Western
+            </p>
+            </form> 
+            </span>
+
+            <!-- Date Input -->
+
+            <p>
+            <span class="copy"><b>Date Last Watched:</span></b> 
+            <input type="date" name="date" id="field3" size="30" style="font-size:10pt">
+            </form>
+            </p>
+            
+
+            <!-- Movie Rating Selector --> 
+
+            <p>
+            <span class="copy"><b>Rate movie:</span></b> 
+            <select name="rating" id="field4"> 
+            <option selected>Choose...</option> 
+            <option>Excellent Movie</option> 
+            <option>Good Movie</option> 
+            <option>This Movie is OK</option> 
+            <option>This Stinks (Why'd I buy it?)</option> 
+            </select> 
+           
+            <span class="copy">
+            </p>
+            
+           <!-- Comment/Info Input -->
+
+            <p>
+            <b>Comments/Info:</b>
+            </span> 
+            <p>
+            <span class="copy"> 
+            <textarea name="info" id="field5" rows="6" wrap="virtual" cols="30" style="font-size:10pt"></textarea>
+            </span> 
+        </div>
+
+           <!-- Footer/copyright info -->
+
+    <footer>
+        <br>
+        <p><b> 2013 Mark Alessi  &copy;</b></p>
+    </footer>
+
+    <!-- External JavaScript File  -->
+
+    <script type="text/javascript" src="JS/main.js"></script> 
+
+    </body>
+</html>

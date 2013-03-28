@@ -1,0 +1,46 @@
+/* 
+    index.css
+    Mark Alessi
+    Project 4
+    VFW 1303  
+*/     
+
+html {
+    background-color: #ffffff;
+    text-align: center
+}
+body {
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    margin: 1.5em auto;
+    padding: 1.5em;
+    background-color: #ffffff;
+    color: #4D4B39;
+    max-width: 20em;
+    border: 0.75em solid #c4c4c4;   /* Border color */
+    line-height: 1.5em;
+}
+p {
+    margin: 1em 0;
+
+}
+h1 {
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 0.75em solid #c4c4c4;   /* Border color */
+    font-size: 150%;
+    
+}
+h2 {
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 0.75em solid #c4c4c4;   /* Border color */
+    font-size: 120%;
+}
+h1 + h2 {
+    margin-top: -2em;
+    padding-top: 0;
+}
+
+footer {
+   font-color: #000000; 
+}

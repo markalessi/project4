@@ -1,0 +1,42 @@
+/* 
+    movieInventory.CSS
+    Mark Alessi
+    Project 4
+    VFW 1303  
+*/  
+html {
+    background-color: #E1DFD3;
+    text-align: center
+}
+body {
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    margin: 1.5em auto;
+    padding: 1.5em;
+    background-color: #4eafeb;
+    color: #4D4B39;
+    max-width: 20em;
+    border: 0.75em solid #ffffff;	/* Border color */
+    line-height: 1.5em;
+}
+p {
+    margin: 1.5em 0;
+    font-style: italic;
+}
+h1 {
+    background-color: #c4c4c4;
+    color: #0f0f0f;
+    font-size: 150%;
+    padding: 0.75em;
+    margin: -0.75em -0.75em 0.75em -0.75em;
+}
+h2 {
+    background-color: #4D4B39;
+    color: #88a75d;
+    font-size: 120%;
+    padding: 1em;
+    margin: -1em -1em 1em -1em;
+}
+h1 + h2 {
+    margin-top: -2em;
+    padding-top: 0;
+}
